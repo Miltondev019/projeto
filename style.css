@@ -15,10 +15,12 @@ main{
 
 .card{
     background: rgba(52, 52, 255, 0.856);
+    padding-bottom: 40px;
 }
 
 .card1{
     background: #1A0233;
+    padding-bottom: 40px;
 }
 
 .card2{
@@ -81,8 +83,4 @@ img{
     width: 500px;
     height: auto;
     
-}
-
-.box{
- 
 }
