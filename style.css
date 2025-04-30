@@ -439,6 +439,20 @@ img{
         flex-direction: row;
     }
 
+    
+.link8{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.link9{
+    margin-top: 20px;
+}
+
+.link10{
+    margin-top: 20px;
+}
+
     .caixa2{
         display:flex ;
         flex-direction: row;
