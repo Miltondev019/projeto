@@ -282,11 +282,11 @@ img{
 }
 
 .caixinha{
-    height: 500px;
+    height: 400px;
 }
 
-.perssonagem{
-    height: 500px;
+.personagem{
+    height: 600px;
 }
 
 .kit{
@@ -341,34 +341,87 @@ img{
         margin-top: -20px;
     }
 
+    .texto0{
+        line-height: 35px;
+    }
+
     .texto{
         width: 320px;
         height: 200px;
     }
 
     .texto1{
-        font-size: 20px;
+        font-size: 26px;
+    }
+
+    .texto3{
+        margin-top: 30px;
+        line-height: 35px;
+    }
+
+    .texto4{
+        line-height: 35px;
+    }
+
+    .texto5{
+        line-height: 35px;
     }
 
     h2{
         background-image: none;
-        background: rgb(10, 99, 37);
+        background: rgb(17, 76, 163);
         font-weight: 700;
         margin-top: 10px;
         border-radius: 8px;
-        font-size: 20px;
+        font-size: 25px;
 
+    }
+
+    .caixinha{
+        height: auto;
+    }
+    
+    .personagem{
+        height: auto;
+    }
+
+    .kit{
+        height: auto;
+    }
+
+    .celular{
+        height: auto;
+    }
+
+    .pacote{
+        height: auto;
     }
 
     .link1{
         margin-top: 80px;
         box-sizing: border-box;
-        margin: 60px 0;
+        margin: 65px 0;
         width: 100%;
     }
 
     .link2{
-        margin-top: 80px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .link5{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .link6{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .link7{
+        width: 100%;
+        margin-top: 20px;
     }
 
     .caixa1{
@@ -389,4 +442,17 @@ img{
         width: 220px;
         margin-bottom:-10px ;
     }
+
+    .personagem1{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .personagem2{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
 }
