@@ -8,7 +8,7 @@
 body{
     font-family: "Rubik",Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: normal;
     font-style: normal;
     height: 100vh;
     background: #5151FE;
@@ -24,6 +24,7 @@ main{
 h1{
     text-align: center;
     color: #ffff;
+    font-family: "Fredoka",sans-serif;
 }
 
 h2{
@@ -32,6 +33,7 @@ h2{
     background-image:linear-gradient(to right, rgb(97, 29, 161), transparent);
     font-weight: normal;
     color: #ffff;
+    font-family: "Baloo 2", sans-serif;
 }
 
 h3{
@@ -47,15 +49,18 @@ h4{
     margin-top: -30px;
     margin-bottom: 20px;
     border-radius: 7px;
+    font-family: "Fredoka",sans-serif;
+    font-size: 40px;
 }
 
 p{
     font-size: 25px;
     line-height: 35px;
+    font-family: "Poppins",sans-serif;
 }
 
 .link1{
-    background: rgb(74, 231, 152);
+    background: #D13B87;
     padding: 10px;
     color: #ffff;
     font-weight: 700;
@@ -66,7 +71,7 @@ p{
 }
 
 .link2{
-    background: rgb(74, 231, 152);
+    background: #D13B87;
     padding: 10px;
     color: #ffff;
     font-weight: 700;
@@ -123,7 +128,7 @@ p{
 }
 
 #link4{
-    background: rgb(74, 231, 152);
+    background: #2677D1;
     padding: 10px;
     color: #ffff;
     font-weight: 700;
@@ -134,43 +139,40 @@ p{
 }
 
 #link5{
-    background: rgb(74, 231, 152);
+    background: #2677D1;
     padding: 10px;
     color: #ffff;
     font-weight: 700;
     display: block;
-    margin-top: px;
     width: 150px;
     border-radius: 7px;
     margin: 15px 0;
 }
 
 #link6{
-    background: rgb(74, 231, 152);
+    background: #2677D1;
     padding: 10px;
     color: #ffff;
     font-weight: 700;
     display: block;
-    margin-top: px;
     width: 150px;
     border-radius: 7px;
     margin: 19px 0;
 }
 
 #link7{
-    background: rgb(74, 231, 152);
+    background: #2677D1;
     padding: 10px;
     color: #ffff;
     font-weight: 700;
     display: block;
-    margin-top: px;
     width: 150px;
     border-radius: 7px;
     margin: 15px 0;
 }
 
 .link4{
-    background: rgb(53, 233, 134);
+    background: #7ED957;
     padding: 10px;
     color: #ffff;
     font-weight: 700;
@@ -181,7 +183,7 @@ p{
 }
 
 .link5{
-    background: rgb(53, 233, 134);
+    background: #5BAF3F;
     padding: 10px;
     color: #ffff;
     font-weight: 700;
@@ -192,7 +194,29 @@ p{
 }
 
 .link6{
-    background: rgb(53, 233, 134);
+    background: #5BAF3F;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 40px;
+    width: 207px;
+    border-radius: 7px;
+}
+
+.link7{
+    background: #5BAF3F;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 169px;
+    width: 207px;
+    border-radius: 7px;
+}
+
+.link8{
+    background: rgb(53, 206, 233);
     padding: 10px;
     color: #ffff;
     font-weight: 700;
@@ -202,27 +226,13 @@ p{
     border-radius: 7px;
 }
 
-.link7{
-    background: rgb(53, 233, 134);
-    padding: 10px;
-    color: #ffff;
-    font-weight: 700;
-    display: block;
-    margin-top: 185px;
-    width: 207px;
-    border-radius: 7px;
-}
-
-
-.link8,
-.link9
-{
+.link9{
     background: rgb(53, 206, 233);
     padding: 10px;
     color: #ffff;
     font-weight: 700;
     display: block;
-    margin-top: 185px;
+    margin-top: 169px;
     width: 207px;
     border-radius: 7px;
 }
@@ -233,8 +243,8 @@ p{
     color: #ffff;
     font-weight: 700;
     display: block;
-    margin-top: 75px;
-    width: 207px;
+    margin-top: 9px;
+    width: 220px;
     border-radius: 7px;
 }
 
@@ -255,6 +265,25 @@ article{
     padding-left: 20px;
 }
 
+footer{
+    background: #1E2A38;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 5px 6px 8px black;
+}
+
+#icon{
+    width: 40px;
+    border-radius: 20px;
+}
+
+#icon4{
+    border-radius: 50px;
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -273,7 +302,7 @@ img{
 }
 
 .caixinha{
-    height: 500px;
+    height: 520px;
 }
 
 .personagem{
@@ -440,22 +469,10 @@ img{
     .caixa1{
         display:flex ;
         flex-direction: row;
-        height: px;
         gap: 4px;
-    }
-    .caixa1{
-        display:flex ;
-        flex-direction: row;
-        height: px;
     }
 
     .caixa2{
-        display:flex ;
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    .caixa1{
         display:flex ;
         flex-direction: row;
         gap: 10px;
