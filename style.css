@@ -275,7 +275,7 @@ footer{
     box-shadow: 5px 6px 8px black;
 }
 
-#icon{
+.icon{
     width: 40px;
     border-radius: 20px;
 }
