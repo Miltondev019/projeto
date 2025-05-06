@@ -82,7 +82,7 @@ p{
 }
 
 
-#link{
+.Caixas-Pirâmides{
     background: orange;
     padding: 10px;
     color: #ffff;
@@ -93,7 +93,7 @@ p{
     margin: 19px 0;
 }
 
-#link1{
+.Caixas-Milk{
     background: orange;
     padding: 10px;
     color: #ffff;
@@ -104,7 +104,7 @@ p{
     margin: 15px 0;
 }
 
-#link2{
+.Caixas-Cubo{
     background: orange;
     padding: 10px;
     color: #ffff;
@@ -116,7 +116,7 @@ p{
     margin: 15px 0;
 }
 
-#link3{
+.Caixas-Cachepot{
     background: orange;
     padding: 10px;
     color: #ffff;
@@ -127,7 +127,7 @@ p{
     margin: 15px 0;
 }
 
-#link4{
+.Acessar-Pack1{
     background: #2677D1;
     padding: 10px;
     color: #ffff;
@@ -138,7 +138,7 @@ p{
     margin: 15px 0;
 }
 
-#link5{
+.Acessar-Pack3{
     background: #2677D1;
     padding: 10px;
     color: #ffff;
@@ -149,7 +149,7 @@ p{
     margin: 15px 0;
 }
 
-#link6{
+.Acessar-Pack2{
     background: #2677D1;
     padding: 10px;
     color: #ffff;
@@ -160,7 +160,7 @@ p{
     margin: 19px 0;
 }
 
-#link7{
+.Acessar-Pack4{
     background: #2677D1;
     padding: 10px;
     color: #ffff;
@@ -475,13 +475,6 @@ img{
     }
 
     #link{
-        color: #ffff;
-        font-weight: 700;
-        display: block;
-        width: 220px;
-    }
-
-    #link3{
         color: #ffff;
         font-weight: 700;
         display: block;
